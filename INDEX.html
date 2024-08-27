@@ -2,16 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bingo cooperativo</title>
     <link rel="icon" type="image/x-icon" href="./img/ICO_COOPERATIVA.ico">
     <link rel="stylesheet" href="./CSS/style.css">
-    
+    <title>Bingo Cooperativo</title>
 </head>
+
 <body>
+
     <div class="banner"> <img src="./img/LOGO COOPERATIVA.png" class="logo_BINGO">   BINGO COOPERATIVO   <img src="./img/LOGO COOPERATIVA.png" class="logo_BINGO"> </div>
     <div class="container">
         <div class="bingo-board" id="bingo-board">
+
             <!-- Fila B -->
             <div class="bingo-header"><h4>B</h4></div>
             <div class="bingo-cell" id="ball-1" onclick="toggleCell(this)"><h4>1</h4></div>
@@ -29,7 +32,9 @@
             <div class="bingo-cell" id="ball-13" onclick="toggleCell(this)"><h4>13</h4></div>
             <div class="bingo-cell" id="ball-14" onclick="toggleCell(this)"><h4>14</h4></div>
             <div class="bingo-cell" id="ball-15" onclick="toggleCell(this)"><h4>15</h4></div>
+
             <!-- Fila I -->
+
             <div class="bingo-header"><h4>I</h4></div>
             <div class="bingo-cell" id="ball-16" onclick="toggleCell(this)"><h4>16</h4></div>
             <div class="bingo-cell" id="ball-17" onclick="toggleCell(this)"><h4>17</h4></div>
@@ -46,7 +51,9 @@
             <div class="bingo-cell" id="ball-28" onclick="toggleCell(this)"><h4>28</h4></div>
             <div class="bingo-cell" id="ball-29" onclick="toggleCell(this)"><h4>29</h4></div>
             <div class="bingo-cell" id="ball-30" onclick="toggleCell(this)"><h4>30</h4></div>
+
             <!-- Fila N -->
+
             <div class="bingo-header"><h4>N</h4></div>
             <div class="bingo-cell" id="ball-31" onclick="toggleCell(this)"><h4>31</h4></div>
             <div class="bingo-cell" id="ball-32" onclick="toggleCell(this)"><h4>32</h4></div>
@@ -63,7 +70,9 @@
             <div class="bingo-cell" id="ball-43" onclick="toggleCell(this)"><h4>43</h4></div>
             <div class="bingo-cell" id="ball-44" onclick="toggleCell(this)"><h4>44</h4></div>
             <div class="bingo-cell" id="ball-45" onclick="toggleCell(this)"><h4>45</h4></div>
+
             <!-- Fila G -->
+
             <div class="bingo-header"><h4>G</h4></div>
             <div class="bingo-cell" id="ball-46" onclick="toggleCell(this)"><h4>46</h4></div>
             <div class="bingo-cell" id="ball-47" onclick="toggleCell(this)"><h4>47</h4></div>
@@ -80,7 +89,9 @@
             <div class="bingo-cell" id="ball-58" onclick="toggleCell(this)"><h4>58</h4></div>
             <div class="bingo-cell" id="ball-59" onclick="toggleCell(this)"><h4>59</h4></div>
             <div class="bingo-cell" id="ball-60" onclick="toggleCell(this)"><h4>60</h4></div>
+
             <!-- Fila O -->
+
             <div class="bingo-header"><h4>O</h4></div>
             <div class="bingo-cell" id="ball-61" onclick="toggleCell(this)"><h4>61</h4></div>
             <div class="bingo-cell" id="ball-62" onclick="toggleCell(this)"><h4>62</h4></div>
@@ -98,6 +109,7 @@
             <div class="bingo-cell" id="ball-74" onclick="toggleCell(this)"><h4>74</h4></div>
             <div class="bingo-cell" id="ball-75" onclick="toggleCell(this)"><h4>75</h4></div>
         </div>
+
         <div class="control-panel">
             <button onclick="resetBoard()">Borrar Tabla</button>
         </div>
@@ -115,5 +127,6 @@
         }
     
     </script>
+
 </body>
 </html>
